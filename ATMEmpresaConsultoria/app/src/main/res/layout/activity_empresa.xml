@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="atmempresaconsultoria.com.atmempresaconsultoria.EmpresaActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="59dp"
+        android:text="Sobre a empresa"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintLeft_toRightOf="@+id/imageView2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/empresaDetalhes" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="360dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.425">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_padrao"
+                android:text="And now I don't know why She wouldn't say goodbye But then it seems that I Had seen it in her eyes And it might not be wise I'd still have to try With all the love I have inside I can't deny I just can't let it die 'Cause her heart's just like mine She holds her pain inside So if you ask me why She wouldn't say goodbye I know somewhere inside There is a special light Still shining bright And even on the darkest night She can't deny So if she's somewhere near me I hope to God she hears me There's no one else Could ever make me feel I'm so alive I hoped she'd never leave me Please God you must believe me I've searched the universe And found myself Within' her eyes No matter how I try They say it's all a lie So what's the use of my Confessions to a crime Of passions that won't die In my heart So if she's somewhere near me I hope to God she hears me There's no one else Could ever make me feel I'm so alive I hoped she'd never leave me Please God you must believe me I've searched the universe And found myself Within' her eyes So if she's somewhere near me I hope to God she hears me There's no one else Could ever make me feel I'm so alive I hoped she'd never leave me Please God you must believe me I've searched the universe And found myself Within' her eyes And now I don't know why She wouldn't say goodbye It just might be that I Had seen it in her eyes And now it seems that I Gave up my ghost of pride I'll never say goodbye"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
